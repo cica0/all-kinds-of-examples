@@ -1,0 +1,4 @@
+Log file created at: 2017/05/08 16:09:04
+Running on machine: wsrecom1
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0508 16:09:04.410079 109634 glog_example.cpp:22] i am an error

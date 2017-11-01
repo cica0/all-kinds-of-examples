@@ -1,0 +1,1 @@
+/home/chang/study/DesignPattern/Singleton/build/CMakeFiles/singleton.dir

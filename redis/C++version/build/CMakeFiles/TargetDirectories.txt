@@ -1,0 +1,2 @@
+/home/chang/study/redis/build/CMakeFiles/redis.dir
+/home/chang/study/redis/build/test/CMakeFiles/redis-server_test.dir

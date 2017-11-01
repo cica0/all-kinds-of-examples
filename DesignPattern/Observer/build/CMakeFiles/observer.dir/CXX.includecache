@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/DesignPattern/Observer/Observer.h
+Subject.h
+/home/chang/study/DesignPattern/Observer/Subject.h
+iostream
+-
+
+/home/chang/study/DesignPattern/Observer/Subject.h
+vector
+-
+iostream
+-
+Observer.h
+/home/chang/study/DesignPattern/Observer/Observer.h
+
+/home/chang/study/DesignPattern/Observer/main.cpp
+iostream
+-
+Observer.h
+/home/chang/study/DesignPattern/Observer/Observer.h
+Subject.h
+/home/chang/study/DesignPattern/Observer/Subject.h
+

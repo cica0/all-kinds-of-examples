@@ -1,0 +1,2 @@
+/home/chang/study/bitmap/build/CMakeFiles/bitmap.dir
+/home/chang/study/bitmap/build/test/CMakeFiles/bitmap_test.dir

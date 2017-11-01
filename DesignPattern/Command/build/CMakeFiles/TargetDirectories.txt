@@ -1,0 +1,1 @@
+/home/chang/study/DesignPattern/Command/build/CMakeFiles/command.dir

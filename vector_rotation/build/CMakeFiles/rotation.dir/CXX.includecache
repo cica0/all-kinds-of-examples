@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/vector_rotation/main.cpp
+iostream
+-
+rotation.h
+/home/chang/study/vector_rotation/rotation.h
+
+/home/chang/study/vector_rotation/rotation.cpp
+rotation.h
+/home/chang/study/vector_rotation/rotation.h
+
+/home/chang/study/vector_rotation/rotation.h
+iostream
+-
+

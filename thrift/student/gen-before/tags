@@ -1,0 +1,134 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Handler	Serv.h	/^  typedef ServIf Handler;$/;"	t	class:ServIfFactory
+ProcessFunction	Serv.h	/^  typedef  void (ServProcessor::*ProcessFunction)(int32_t, ::apache::thrift::protocol::TProtocol*, ::apache::thrift::protocol::TProtocol*, void*);$/;"	t	class:ServProcessor
+ProcessMap	Serv.h	/^  typedef std::map<std::string, ProcessFunction> ProcessMap;$/;"	t	class:ServProcessor
+ServClient	Serv.h	/^  ServClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:ServClient
+ServClient	Serv.h	/^  ServClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:ServClient
+ServClient	Serv.h	/^class ServClient : virtual public ServIf {$/;"	c
+ServConcurrentClient	Serv.h	/^  ServConcurrentClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:ServConcurrentClient
+ServConcurrentClient	Serv.h	/^  ServConcurrentClient(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:ServConcurrentClient
+ServConcurrentClient	Serv.h	/^class ServConcurrentClient : virtual public ServIf {$/;"	c
+ServHandler	Serv_server.skeleton.cpp	/^  ServHandler() {$/;"	f	class:ServHandler
+ServHandler	Serv_server.skeleton.cpp	/^class ServHandler : virtual public ServIf {$/;"	c	file:
+ServIf	Serv.h	/^class ServIf {$/;"	c
+ServIfFactory	Serv.h	/^class ServIfFactory {$/;"	c
+ServIfSingletonFactory	Serv.h	/^  ServIfSingletonFactory(const boost::shared_ptr<ServIf>& iface) : iface_(iface) {}$/;"	f	class:ServIfSingletonFactory
+ServIfSingletonFactory	Serv.h	/^class ServIfSingletonFactory : virtual public ServIfFactory {$/;"	c
+ServMultiface	Serv.h	/^  ServMultiface() {}$/;"	f	class:ServMultiface
+ServMultiface	Serv.h	/^  ServMultiface(std::vector<boost::shared_ptr<ServIf> >& ifaces) : ifaces_(ifaces) {$/;"	f	class:ServMultiface
+ServMultiface	Serv.h	/^class ServMultiface : virtual public ServIf {$/;"	c
+ServNull	Serv.h	/^class ServNull : virtual public ServIf {$/;"	c
+ServProcessor	Serv.h	/^  ServProcessor(boost::shared_ptr<ServIf> iface) :$/;"	f	class:ServProcessor
+ServProcessor	Serv.h	/^class ServProcessor : public ::apache::thrift::TDispatchProcessor {$/;"	c
+ServProcessorFactory	Serv.h	/^  ServProcessorFactory(const ::boost::shared_ptr< ServIfFactory >& handlerFactory) :$/;"	f	class:ServProcessorFactory
+ServProcessorFactory	Serv.h	/^class ServProcessorFactory : public ::apache::thrift::TProcessorFactory {$/;"	c
+Serv_H	Serv.h	8;"	d
+Serv_put_args	Serv.h	/^  Serv_put_args() {$/;"	f	class:Serv_put_args
+Serv_put_args	Serv.h	/^class Serv_put_args {$/;"	c
+Serv_put_pargs	Serv.h	/^class Serv_put_pargs {$/;"	c
+Serv_put_presult	Serv.h	/^class Serv_put_presult {$/;"	c
+Serv_put_result	Serv.h	/^  Serv_put_result() {$/;"	f	class:Serv_put_result
+Serv_put_result	Serv.h	/^class Serv_put_result {$/;"	c
+Student	student_types.cpp	/^Student::Student(const Student& other0) {$/;"	f	class:Student
+Student	student_types.h	/^  Student() : sno(0), sname(), ssex(0), sage(0) {$/;"	f	class:Student
+Student	student_types.h	/^class Student {$/;"	c
+_Serv_put_args__isset	Serv.h	/^  _Serv_put_args__isset() : s(false) {}$/;"	f	struct:_Serv_put_args__isset
+_Serv_put_args__isset	Serv.h	/^typedef struct _Serv_put_args__isset {$/;"	s
+_Serv_put_args__isset	Serv.h	/^} _Serv_put_args__isset;$/;"	t	typeref:struct:_Serv_put_args__isset
+_Student__isset	student_types.h	/^  _Student__isset() : sno(false), sname(false), ssex(false), sage(false) {}$/;"	f	struct:_Student__isset
+_Student__isset	student_types.h	/^typedef struct _Student__isset {$/;"	s
+_Student__isset	student_types.h	/^} _Student__isset;$/;"	t	typeref:struct:_Student__isset
+__isset	Serv.h	/^  _Serv_put_args__isset __isset;$/;"	m	class:Serv_put_args
+__isset	student_types.h	/^  _Student__isset __isset;$/;"	m	class:Student
+__set_sage	student_types.cpp	/^void Student::__set_sage(const int16_t val) {$/;"	f	class:Student
+__set_sname	student_types.cpp	/^void Student::__set_sname(const std::string& val) {$/;"	f	class:Student
+__set_sno	student_types.cpp	/^void Student::__set_sno(const int32_t val) {$/;"	f	class:Student
+__set_ssex	student_types.cpp	/^void Student::__set_ssex(const bool val) {$/;"	f	class:Student
+add	Serv.h	/^  void add(boost::shared_ptr<ServIf> iface) {$/;"	f	class:ServMultiface
+dispatchCall	Serv.cpp	/^bool ServProcessor::dispatchCall(::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, const std::string& fname, int32_t seqid, void* callContext) {$/;"	f	class:ServProcessor
+g_student_constants	student_constants.cpp	/^const studentConstants g_student_constants;$/;"	v
+getHandler	Serv.h	/^  virtual ServIf* getHandler(const ::apache::thrift::TConnectionInfo&) {$/;"	f	class:ServIfSingletonFactory
+getInputProtocol	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getInputProtocol() {$/;"	f	class:ServClient
+getInputProtocol	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getInputProtocol() {$/;"	f	class:ServConcurrentClient
+getOutputProtocol	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getOutputProtocol() {$/;"	f	class:ServClient
+getOutputProtocol	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> getOutputProtocol() {$/;"	f	class:ServConcurrentClient
+getProcessor	Serv.cpp	/^::boost::shared_ptr< ::apache::thrift::TProcessor > ServProcessorFactory::getProcessor(const ::apache::thrift::TConnectionInfo& connInfo) {$/;"	f	class:ServProcessorFactory
+handlerFactory_	Serv.h	/^  ::boost::shared_ptr< ServIfFactory > handlerFactory_;$/;"	m	class:ServProcessorFactory
+iface_	Serv.h	/^  boost::shared_ptr<ServIf> iface_;$/;"	m	class:ServIfSingletonFactory
+iface_	Serv.h	/^  boost::shared_ptr<ServIf> iface_;$/;"	m	class:ServProcessor
+ifaces_	Serv.h	/^  std::vector<boost::shared_ptr<ServIf> > ifaces_;$/;"	m	class:ServMultiface
+iprot_	Serv.h	/^  ::apache::thrift::protocol::TProtocol* iprot_;$/;"	m	class:ServClient
+iprot_	Serv.h	/^  ::apache::thrift::protocol::TProtocol* iprot_;$/;"	m	class:ServConcurrentClient
+main	Serv_server.skeleton.cpp	/^int main(int argc, char **argv) {$/;"	f
+operator !=	Serv.h	/^  bool operator != (const Serv_put_args &rhs) const {$/;"	f	class:Serv_put_args
+operator !=	Serv.h	/^  bool operator != (const Serv_put_result &rhs) const {$/;"	f	class:Serv_put_result
+operator !=	student_types.h	/^  bool operator != (const Student &rhs) const {$/;"	f	class:Student
+operator <<	student_types.h	/^inline std::ostream& operator<<(std::ostream& out, const Student& obj)$/;"	f
+operator =	student_types.cpp	/^Student& Student::operator=(const Student& other1) {$/;"	f	class:Student
+operator ==	Serv.h	/^  bool operator == (const Serv_put_args & rhs) const$/;"	f	class:Serv_put_args
+operator ==	Serv.h	/^  bool operator == (const Serv_put_result & \/* rhs *\/) const$/;"	f	class:Serv_put_result
+operator ==	student_types.h	/^  bool operator == (const Student & rhs) const$/;"	f	class:Student
+oprot_	Serv.h	/^  ::apache::thrift::protocol::TProtocol* oprot_;$/;"	m	class:ServClient
+oprot_	Serv.h	/^  ::apache::thrift::protocol::TProtocol* oprot_;$/;"	m	class:ServConcurrentClient
+piprot_	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> piprot_;$/;"	m	class:ServClient
+piprot_	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> piprot_;$/;"	m	class:ServConcurrentClient
+poprot_	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> poprot_;$/;"	m	class:ServClient
+poprot_	Serv.h	/^  boost::shared_ptr< ::apache::thrift::protocol::TProtocol> poprot_;$/;"	m	class:ServConcurrentClient
+printTo	student_types.cpp	/^void Student::printTo(std::ostream& out) const {$/;"	f	class:Student
+processMap_	Serv.h	/^  ProcessMap processMap_;$/;"	m	class:ServProcessor
+process_put	Serv.cpp	/^void ServProcessor::process_put(int32_t seqid, ::apache::thrift::protocol::TProtocol* iprot, ::apache::thrift::protocol::TProtocol* oprot, void* callContext)$/;"	f	class:ServProcessor
+put	Serv.cpp	/^void ServClient::put(const Student& s)$/;"	f	class:ServClient
+put	Serv.cpp	/^void ServConcurrentClient::put(const Student& s)$/;"	f	class:ServConcurrentClient
+put	Serv.h	/^  void put(const Student& \/* s *\/) {$/;"	f	class:ServNull
+put	Serv.h	/^  void put(const Student& s) {$/;"	f	class:ServMultiface
+put	Serv_server.skeleton.cpp	/^  void put(const Student& s) {$/;"	f	class:ServHandler
+read	Serv.cpp	/^uint32_t Serv_put_args::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:Serv_put_args
+read	Serv.cpp	/^uint32_t Serv_put_presult::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:Serv_put_presult
+read	Serv.cpp	/^uint32_t Serv_put_result::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:Serv_put_result
+read	student_types.cpp	/^uint32_t Student::read(::apache::thrift::protocol::TProtocol* iprot) {$/;"	f	class:Student
+recv_put	Serv.cpp	/^void ServClient::recv_put()$/;"	f	class:ServClient
+recv_put	Serv.cpp	/^void ServConcurrentClient::recv_put(const int32_t seqid)$/;"	f	class:ServConcurrentClient
+releaseHandler	Serv.h	/^  virtual void releaseHandler(ServIf* \/* handler *\/) {}$/;"	f	class:ServIfSingletonFactory
+s	Serv.h	/^  Student s;$/;"	m	class:Serv_put_args
+s	Serv.h	/^  bool s :1;$/;"	m	struct:_Serv_put_args__isset
+s	Serv.h	/^  const Student* s;$/;"	m	class:Serv_put_pargs
+sage	student_types.h	/^  bool sage :1;$/;"	m	struct:_Student__isset
+sage	student_types.h	/^  int16_t sage;$/;"	m	class:Student
+send_put	Serv.cpp	/^int32_t ServConcurrentClient::send_put(const Student& s)$/;"	f	class:ServConcurrentClient
+send_put	Serv.cpp	/^void ServClient::send_put(const Student& s)$/;"	f	class:ServClient
+setProtocol	Serv.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:ServClient
+setProtocol	Serv.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> iprot, boost::shared_ptr< ::apache::thrift::protocol::TProtocol> oprot) {$/;"	f	class:ServConcurrentClient
+setProtocol	Serv.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:ServClient
+setProtocol	Serv.h	/^  void setProtocol(boost::shared_ptr< ::apache::thrift::protocol::TProtocol> prot) {$/;"	f	class:ServConcurrentClient
+sname	student_types.h	/^  bool sname :1;$/;"	m	struct:_Student__isset
+sname	student_types.h	/^  std::string sname;$/;"	m	class:Student
+sno	student_types.h	/^  bool sno :1;$/;"	m	struct:_Student__isset
+sno	student_types.h	/^  int32_t sno;$/;"	m	class:Student
+ssex	student_types.h	/^  bool ssex :1;$/;"	m	struct:_Student__isset
+ssex	student_types.h	/^  bool ssex;$/;"	m	class:Student
+studentConstants	student_constants.cpp	/^studentConstants::studentConstants() {$/;"	f	class:studentConstants
+studentConstants	student_constants.h	/^class studentConstants {$/;"	c
+student_CONSTANTS_H	student_constants.h	8;"	d
+student_TYPES_H	student_types.h	8;"	d
+swap	student_types.cpp	/^void swap(Student &a, Student &b) {$/;"	f
+sync_	Serv.h	/^  ::apache::thrift::async::TConcurrentClientSyncInfo sync_;$/;"	m	class:ServConcurrentClient
+write	Serv.cpp	/^uint32_t Serv_put_args::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:Serv_put_args
+write	Serv.cpp	/^uint32_t Serv_put_pargs::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:Serv_put_pargs
+write	Serv.cpp	/^uint32_t Serv_put_result::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:Serv_put_result
+write	student_types.cpp	/^uint32_t Student::write(::apache::thrift::protocol::TProtocol* oprot) const {$/;"	f	class:Student
+~ServIf	Serv.h	/^  virtual ~ServIf() {}$/;"	f	class:ServIf
+~ServIfFactory	Serv.h	/^  virtual ~ServIfFactory() {}$/;"	f	class:ServIfFactory
+~ServIfSingletonFactory	Serv.h	/^  virtual ~ServIfSingletonFactory() {}$/;"	f	class:ServIfSingletonFactory
+~ServMultiface	Serv.h	/^  virtual ~ServMultiface() {}$/;"	f	class:ServMultiface
+~ServNull	Serv.h	/^  virtual ~ServNull() {}$/;"	f	class:ServNull
+~ServProcessor	Serv.h	/^  virtual ~ServProcessor() {}$/;"	f	class:ServProcessor
+~Serv_put_args	Serv.cpp	/^Serv_put_args::~Serv_put_args() throw() {$/;"	f	class:Serv_put_args
+~Serv_put_pargs	Serv.cpp	/^Serv_put_pargs::~Serv_put_pargs() throw() {$/;"	f	class:Serv_put_pargs
+~Serv_put_presult	Serv.cpp	/^Serv_put_presult::~Serv_put_presult() throw() {$/;"	f	class:Serv_put_presult
+~Serv_put_result	Serv.cpp	/^Serv_put_result::~Serv_put_result() throw() {$/;"	f	class:Serv_put_result
+~Student	student_types.cpp	/^Student::~Student() throw() {$/;"	f	class:Student

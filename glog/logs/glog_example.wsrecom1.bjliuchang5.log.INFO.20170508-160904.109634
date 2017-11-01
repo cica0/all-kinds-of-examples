@@ -1,0 +1,7 @@
+Log file created at: 2017/05/08 16:09:04
+Running on machine: wsrecom1
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0508 16:09:04.409819 109634 glog_example.cpp:20] hello,log!!
+W0508 16:09:04.410006 109634 glog_example.cpp:21] hello, i am a warning!!
+E0508 16:09:04.410079 109634 glog_example.cpp:22] i am an error
+I0508 16:09:04.410146 109634 glog_example.cpp:24] i am a debug log 

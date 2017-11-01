@@ -1,0 +1,2 @@
+/home/bjliuchang5/study/cmake/practice/t2/usr/bin/run.sh
+/home/bjliuchang5/study/cmake/practice/t2/hello.txt

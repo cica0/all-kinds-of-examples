@@ -1,0 +1,4 @@
+Log file created at: 2017/07/27 11:46:52
+Running on machine: iz2ze0uo1ogdsqm1a8tsm4z
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0727 11:46:52.121780 14907 redis-server.cpp:25] connect success

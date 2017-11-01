@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/bitmap/bitmap.cpp
+bitmap.h
+/home/chang/study/bitmap/bitmap.h
+iostream
+-
+string.h
+-
+cstddef
+-
+
+/home/chang/study/bitmap/bitmap.h
+stdint.h
+/home/chang/study/bitmap/stdint.h
+

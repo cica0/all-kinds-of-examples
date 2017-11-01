@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/DesignPattern/Command/Command.cpp
+Command.h
+/home/chang/study/DesignPattern/Command/Command.h
+
+/home/chang/study/DesignPattern/Command/Command.h
+iostream
+/home/chang/study/DesignPattern/Command/iostream
+Receiver.h
+/home/chang/study/DesignPattern/Command/Receiver.h
+
+/home/chang/study/DesignPattern/Command/Receiver.h
+

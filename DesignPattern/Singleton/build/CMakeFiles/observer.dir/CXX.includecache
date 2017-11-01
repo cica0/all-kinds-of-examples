@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/DesignPattern/Singleton/Singleton.h
+boost/noncopyable.hpp
+-
+memory
+-
+
+/home/chang/study/DesignPattern/Singleton/main.cpp
+iostream
+-
+Singleton.h
+/home/chang/study/DesignPattern/Singleton/Singleton.h
+

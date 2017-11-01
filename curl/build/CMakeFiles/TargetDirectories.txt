@@ -1,0 +1,1 @@
+/home/chang/study/curl/build/CMakeFiles/curl.dir

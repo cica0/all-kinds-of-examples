@@ -1,0 +1,1 @@
+/home/chang/study/DesignPattern/Adapter/build/CMakeFiles/adapter.dir

@@ -1,0 +1,1 @@
+/home/chang/study/thrift/student/build/CMakeFiles/thrift_target.dir

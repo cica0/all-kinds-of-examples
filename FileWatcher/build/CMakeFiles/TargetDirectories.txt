@@ -1,0 +1,1 @@
+/home/chang/study/FileWatcher/build/CMakeFiles/FileWatcher.dir
