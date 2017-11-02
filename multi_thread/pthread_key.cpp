@@ -24,13 +24,10 @@ void my_thread1()
 
 void my_thread2()
 {
-    struct mem_load data;
-    data.i = 110;
-    data.f = 0.002;
-    pthread_setspecific(key, &data);
-    struct mem_load *data_tmp = (struct mem_load *)pthread_getspecific(key);
-    cout << "in thread2 data.i:" << data_tmp->i << endl;
-    cout << "in thread2 data.f:" << data_tmp->f << endl;
+    int aaa  = 101010;
+    pthread_setspecific(key, &aaa);
+    int* bbb = (int *)pthread_getspecific(key);
+    cout << "the data in thread2 is:" << *bbb << endl;
 }
 
 void make_key() {
