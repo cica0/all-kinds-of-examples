@@ -5,7 +5,7 @@ OBJS := $(patsubst %.c,%.o,$(patsubst %.cpp,%.o,$(SOURCE)))
 TARGET := signal
 
 CC		 := g++
-#LIBS	 := -L
+LIBS	 := -lpthread
 DEFINES  := 
 #LDFLAGS  := -lm
 #INCLUDE  := -I 
