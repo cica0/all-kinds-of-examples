@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/software/gperftools-2.5-install/include/gperftools/profiler.h
+time.h
+-
+
+/home/chang/study/all-kinds-of-examples/gperftools/main.cpp
+iostream
+-
+gperftools/profiler.h
+-
+

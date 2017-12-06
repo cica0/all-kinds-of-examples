@@ -1,0 +1,4 @@
+pprof --text gperftools_test test.prof > test.txt
+pprof --pdf gperftools_test test.prof > test.pdf
+
+test.prof 是在.cpp程序中用代码生成的
