@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 2.6.0)
+
+set(HOME "/home/chang/")
+set(PACKAGE_NAME "gmock")
+set(PACKAGE_VERSION "0.0.1.1")
+set(PACKAGE_TARNAME "${PACKAGE_NAME}-${PACKAGE_VERSION}")
+message (STATUS "PACKAGE_TARNAME" ${PACKAGE_TARNAME})
+project(${PACKAGE_NAME} CXX)
+
+set (CMAKE_CXX_FLAGS "-g -O0 -std=c++11")
+add_definitions(-DTHREADED)
+add_definitions(-DVERSION_ID="${PACKAGE_TARNAME}")
+#DNDEBUG 禁用glog dlog 输出
+add_definitions(-DNDEBUG)
+
+include_directories(
+    "${HOME}/work/common/third/glog/include/"
+    "${HOME}/work/common/third/gflags/include/"
+    "${HOME}/work/common/third/boost/include/"
+    "${HOME}/software/gmock-install/include/"
+    "${HOME}/software/gtest-install/include/"
+    )
+
+link_directories(
+    "${HOME}/work/common/third/glog/lib/"
+    "${HOME}/work/common/third/gflags/lib/"
+    "${HOME}/work/common/third/boost/lib/"
+    "${HOME}/software/gmock-install/lib/"
+    "${HOME}/software/gtest-install/lib/"
+    )
+
+set(SRCS
+    "main.cpp"
+   )
+
+add_executable(${PACKAGE_NAME} ${SRCS})
+target_link_libraries(${PACKAGE_NAME} 
+    libglog.a 
+    libgflags.a 
+    libgtest.a
+    libgmock.a
+    pthread
+    )
+
+#include(test)
+#enable_testing()
+#add_subdirectory(test)

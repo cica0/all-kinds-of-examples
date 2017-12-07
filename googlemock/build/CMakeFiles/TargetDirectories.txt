@@ -1,0 +1,1 @@
+/home/chang/study/all-kinds-of-examples/googlemock/build/CMakeFiles/gmock.dir
