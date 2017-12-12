@@ -1,0 +1,10 @@
+example_estimator_website.py是tensorflow官网上的例子，如果想要详细的讲解可以直接看tensorflow官网
+https://www.tensorflow.org/get_started/estimator
+iris_test.csv和iris_training.csv是运行上面那个官网的例子生成的，它会从指定地方拽数据文件
+
+test.py为自己测试用的
+
+estimator.py为在网页上其他人的例子，流程包括输入数据，训练模型，进行预测
+下部分被注释的是自己写一个损失函数用来计算，而不使用它自带的库
+
+
