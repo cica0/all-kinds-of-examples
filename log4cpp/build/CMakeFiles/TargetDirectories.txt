@@ -1,0 +1,1 @@
+/home/chang/study/all-kinds-of-examples/log4cpp/build/CMakeFiles/log4cpp.dir
