@@ -1,0 +1,35 @@
+2017-12-21 11:37:19,217 INFO Included extra file "/home/chang/study/all-kinds-of-examples/supervisor/./conf.d/hello.ini" during parsing
+2017-12-21 11:37:19,226 INFO RPC interface 'supervisor' initialized
+2017-12-21 11:40:26,763 INFO Included extra file "/home/chang/study/all-kinds-of-examples/supervisor/./conf.d/hello.ini" during parsing
+2017-12-21 11:40:26,771 INFO RPC interface 'supervisor' initialized
+2017-12-21 11:46:31,167 CRIT Supervisor running as root (no user in config file)
+2017-12-21 11:46:31,167 INFO Included extra file "/home/chang/study/all-kinds-of-examples/supervisor/./conf.d/hello.ini" during parsing
+2017-12-21 11:46:31,176 INFO RPC interface 'supervisor' initialized
+2017-12-21 11:46:31,176 INFO RPC interface 'supervisor' initialized
+2017-12-21 11:46:31,176 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2017-12-21 11:46:31,178 INFO daemonizing the supervisord process
+2017-12-21 11:46:31,178 INFO supervisord started with pid 1196
+2017-12-21 11:46:32,181 INFO spawned: 'hello' with pid 1200
+2017-12-21 11:46:33,196 INFO success: hello entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-12-21 11:47:14,772 INFO waiting for hello to stop
+2017-12-21 11:47:14,783 INFO stopped: hello (terminated by SIGTERM)
+2017-12-21 11:54:49,861 INFO spawned: 'hello' with pid 2948
+2017-12-21 11:54:50,877 INFO success: hello entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-12-21 11:54:56,012 INFO waiting for hello to stop
+2017-12-21 11:54:56,023 INFO stopped: hello (terminated by SIGTERM)
+2017-12-21 15:45:40,042 INFO spawned: 'hello' with pid 17985
+2017-12-21 15:45:41,058 INFO success: hello entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-12-21 15:53:24,800 INFO waiting for hello to die
+2017-12-21 15:53:24,801 INFO stopped: hello (terminated by SIGTERM)
+2017-12-21 15:57:42,311 INFO Included extra file "/home/chang/study/all-kinds-of-examples/supervisor/./conf.d/hello.ini" during parsing
+2017-12-21 15:57:59,036 INFO Included extra file "/home/chang/study/all-kinds-of-examples/supervisor/./conf.d/hello.ini" during parsing
+2017-12-21 15:57:59,045 INFO RPC interface 'supervisor' initialized
+2017-12-21 15:57:59,045 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2017-12-21 15:57:59,045 INFO RPC interface 'supervisor' initialized
+2017-12-21 15:57:59,045 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2017-12-21 15:57:59,046 INFO daemonizing the supervisord process
+2017-12-21 15:57:59,047 INFO supervisord started with pid 20473
+2017-12-21 15:58:00,049 INFO spawned: 'hello' with pid 20477
+2017-12-21 15:58:01,065 INFO success: hello entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2017-12-21 15:58:09,890 INFO waiting for hello to stop
+2017-12-21 15:58:09,900 INFO stopped: hello (terminated by SIGTERM)

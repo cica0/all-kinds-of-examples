@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chang/study/all-kinds-of-examples/DesignPattern/Visitor/visitor.cpp
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+cstdlib
+-
+ctime
+-
+
